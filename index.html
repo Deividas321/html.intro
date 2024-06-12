@@ -8,7 +8,7 @@
 
 <body style="width: 100%;"> 
         <div style="width: 100%;display: inline-block">
-        <img style="height: 30px;float: right;margin: 30px;" src="./img/close.png" alt="">
+        <img style="height: 30px;float: right;margin: 30px;padding: 100px;color: rgba(255, 0, 0, 0.717);" src="./img/close.png" alt="">
         </div>
         </div>
 
@@ -23,7 +23,7 @@
                      adipisicing elit. Laborum fugit quasi ratione,
                      explicabo rerum dolor.
                     </p> 
-                    <a style= "background-color: green;color:white;padding: 20px;display: inline-block;"
+                    <a style= "background-color: green;color:white;padding: 20px;display: inline-block;box-shadow: 10px 10px 30px 1px rgb(1, 86, 4)"
                     href="#">Go back Home </a>  
         </div>
     </div>
@@ -31,16 +31,54 @@
 
 </html>
 <!-- 
-Background-color :
-Color (teksto spalva)
+box-shadow 0 0 0 0 (keturi parametrai) 1 kuo labiau i kaire 2 I apacia 3 Ant kiek isiliejas 4 Visas jo dydis
+padding: 40px; padding-top: 20px; padding-bottom: 20px;
+padding: 20px; padding-left: 40px; padding-right: 40px;
+padding-top: 20px; padding-right: 40px; padding-bottom: 20px; padding-left: 40px;
 
-Fonst-size: 100px
-Font-family Arial
-Font-weight bold    //700   
-Font-weight normal  //400
-Font-weight 400
-text-style italic
-text-decoration: underline 
+px - (absoliutus) primityviausias matavimo vienetas
+% - reliatyvus
+em - proporcingas to paties elemento font-size
 
+1em = 100% = ???px
+
+Tekstines stiliaus savybes yra paveldimos.
+
+background-color: red;
+color: black;
+
+font-size: 100px;
+font-family: Arial;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: monospace;
+font-weight: bold;          // 700
+font-weight: normal;        // 400
+font-weight: 400;
+font-style: italic;
+text-decoration: underline;
+line-height: 30px;
+
+width: 200px;
+width: 100%;
+
+display: block;         // default, elementai deliojami vertikaliai
+display: inline;        // elgiasi kaip tekstas
+display: none;          // elementas nerodomas
+display: inline-block;  // mix tarp block ir inline
+
+float: left;            // priverstinis elemento statymas horizontaliai
+float: right;
+
+margin: 0;              // atstumas iki aplinkiniu elementu visomis kryptimis
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+
+padding: 0;              // atstumas visomis kryptimis nuo elemento turinio iki to paties elemento krastu
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 
 -->
